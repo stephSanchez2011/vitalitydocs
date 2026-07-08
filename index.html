@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Vitality RPG — Informations légales</title>
+  <style>
+    :root {
+      --bg: #080b12;
+      --surface: #141a27;
+      --border: #2c3650;
+      --gold: #f5c451;
+      --text: #f2f4fa;
+      --muted: #9aa6c0;
+      --link: #8fc0ff;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      min-height: 100vh;
+      font-family: system-ui, -apple-system, sans-serif;
+      background:
+        radial-gradient(ellipse at top, #1b2233 0%, var(--bg) 55%);
+      color: var(--text);
+      line-height: 1.6;
+    }
+    main {
+      max-width: 640px;
+      margin: 0 auto;
+      padding: 3rem 1.25rem 4rem;
+    }
+    .eyebrow {
+      color: var(--gold);
+      text-transform: uppercase;
+      letter-spacing: 0.14em;
+      font-size: 0.75rem;
+      font-weight: 700;
+      margin: 0 0 0.75rem;
+    }
+    h1 {
+      margin: 0 0 0.75rem;
+      font-size: 1.75rem;
+      line-height: 1.2;
+    }
+    .intro {
+      color: var(--muted);
+      margin: 0 0 2rem;
+    }
+    nav {
+      display: grid;
+      gap: 0.85rem;
+    }
+    a.card {
+      display: block;
+      text-decoration: none;
+      color: inherit;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 1.1rem 1.2rem;
+      transition: border-color 0.15s ease, transform 0.15s ease;
+    }
+    a.card:hover {
+      border-color: var(--gold);
+      transform: translateY(-1px);
+    }
+    a.card strong {
+      display: block;
+      color: var(--gold);
+      margin-bottom: 0.3rem;
+    }
+    a.card span {
+      color: var(--muted);
+      font-size: 0.95rem;
+    }
+    footer {
+      margin-top: 2.5rem;
+      padding-top: 1.25rem;
+      border-top: 1px solid var(--border);
+      color: var(--muted);
+      font-size: 0.9rem;
+    }
+    footer a { color: var(--link); }
+  </style>
+</head>
+<body>
+  <main>
+    <p class="eyebrow">Vindict Studio</p>
+    <h1>Vitality RPG</h1>
+    <p class="intro">
+      Pages publiques liées à l’application (Play Store / utilisateurs).
+    </p>
+
+    <nav aria-label="Sommaire">
+      <a class="card" href="privacy-policy.html">
+        <strong>Politique de confidentialité</strong>
+        <span>Données collectées, finalités, droits RGPD et contact.</span>
+      </a>
+      <a class="card" href="account-deletion.html">
+        <strong>Suppression de compte</strong>
+        <span>Comment demander l’effacement du compte et des données associées.</span>
+      </a>
+    </nav>
+
+    <footer>
+      Contact :
+      <a href="mailto:contact@vindicttechnology.com">contact@vindicttechnology.com</a>
+    </footer>
+  </main>
+</body>
+</html>
